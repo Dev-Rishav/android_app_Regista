@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/home"></item>
+        <item
+            android:id="@+id/nav_department"
+            android:icon="@drawable/department"
+            android:title="@string/computer_science"></item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/communicate">
+            <menu>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/share"
+                    android:title="@string/share"></item>
+                <item
+                    android:id="@+id/nav_about_us"
+                    android:icon="@drawable/about_us"
+                    android:title="@string/about_us"></item>
+            </menu>
+        </item>
+    </group>
+</menu>
