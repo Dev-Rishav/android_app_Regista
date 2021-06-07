@@ -12,6 +12,41 @@
             android:title="@string/computer_science"></item>
     </group>
 
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/account">
+            <menu>
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/nav_profile_icon"
+                    android:title="@string/profile"></item>
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/nav_login_icon"
+                    android:title="@string/log_in"></item>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/nav_logout_icon"
+                    android:title="@string/log_out"></item>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="App Settings">
+            <menu>
+                <item
+                    android:id="@+id/nav_darkmode_toggle"
+                    android:icon="@drawable/nav_darkmode_toggle_icon"
+                    android:title="Night Mode"></item>
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/inav_settings_icon"
+                    android:title="Settings"></item>
+            </menu>
+        </item>
+    </group>
+
     <group android:checkableBehavior="single">
         <item android:title="@string/communicate">
             <menu>
