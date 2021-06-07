@@ -5,4 +5,6 @@
     <string name="communicate">Communicate</string>
     <string name="share">Share</string>
     <string name="about_us">About Us</string>
+    <string name="nav_bar_open">Open navigation bar</string>
+    <string name="nav_bar_close">Close navigation bar</string>
 </resources>

@@ -20,5 +20,5 @@
         android:shadowColor="@color/white"
         android:text="egista"
         android:textColor="#66C95F"
-        android:textSize="30sp" />
+        android:textSize="25sp" />
 </LinearLayout>
