@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -41,18 +42,25 @@
 
         <Button
             android:id="@+id/student_cancel"
-            android:layout_marginLeft="8dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cancel"/>
+            android:layout_marginLeft="8dp"
+            android:background="#802F2F"
+            android:backgroundTint="#872A2A"
+            android:shadowColor="@color/teal_200"
+            android:text="Cancel"
+            android:textColorLink="@color/teal_200"
+            app:rippleColor="@color/teal_200"
+            app:strokeColor="@color/teal_200" />
 
         <Button
             android:id="@+id/student_add"
-            android:layout_marginRight="8dp"
-            android:layout_alignParentRight="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Add"/>
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:hapticFeedbackEnabled="true"
+            android:text="Add" />
 
     </RelativeLayout>
 
