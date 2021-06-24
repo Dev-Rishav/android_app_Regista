@@ -45,14 +45,14 @@
                 android:id="@+id/textView2"
                 android:layout_width="127dp"
                 android:layout_height="31dp"
-                android:text="TextView"
+                android:text="@string/textview"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/floatingActionButton"
+                android:id="@+id/main_fab"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="323dp"
@@ -62,12 +62,12 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:focusableInTouchMode="true"
+                android:src="@drawable/ic_fb_add"
                 app:backgroundTint="?attr/colorAccent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/toolbar"
-                app:srcCompat="@android:drawable/ic_input_add" />
+                app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
