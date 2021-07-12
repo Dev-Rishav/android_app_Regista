@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Regista</string>
+    <string name="home">Home</string>
+    <string name="computer_science">Computer Science</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="about_us">About Us</string>
+    <string name="nav_bar_open">Open navigation bar</string>
+    <string name="nav_bar_close">Close navigation bar</string>
+    <string name="account">Account</string>
+    <string name="profile">Profile</string>
+    <string name="log_in">Log in</string>
+    <string name="log_out">Log out</string>
+    <string name="textview">TextView</string>
 </resources>
