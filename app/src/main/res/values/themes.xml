@@ -2,12 +2,12 @@
     <!-- Base application theme. -->
     <style name="Theme.Regista" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#FF03DAC5</item>
-        <item name="colorPrimaryVariant">#FF03DAC5</item>
+        <item name="colorPrimary">#99D5F4</item>
+        <item name="colorPrimaryVariant">#99D5F4</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorSecondary">#99D5F4</item>
+        <item name="colorSecondaryVariant">#99D5F4</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
